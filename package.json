@@ -1,0 +1,24 @@
+{
+  "name": "migi.tech",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/migi1982/migi.tech.git",
+  "author": "migi <t.EDEN.m@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server  --open",
+    "build": "webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
+  }
+}

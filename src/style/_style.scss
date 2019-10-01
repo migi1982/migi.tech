@@ -1,0 +1,58 @@
+$main: #a22d8c;
+$deep: #7d006f;
+$text: #FFF;
+html,
+body {
+  background: $main;
+  color: $text;
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 300;
+}
+
+body {
+  padding: 40px 20px;
+}
+
+svg {
+  width: 120px;
+  margin-bottom: 10px;
+  path {
+    fill: $deep;
+  }
+}
+
+h1 {
+  margin: 0 auto;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: $deep;
+}
+
+div {
+  margin-bottom: 40px;
+  p {
+    margin-bottom: 10px;
+    &:last-child {
+      margin: 0;
+    }
+  }
+}
+
+ul {
+  margin: 0 auto 40px;
+  display: block;
+  li {
+    list-style-type: none;
+    margin-bottom: 20px;
+    a {
+      text-decoration: none;
+      color: $text;
+    }
+  }
+}
+
+// p {
+//   font-weight: 400;
+// }
